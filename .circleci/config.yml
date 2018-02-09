@@ -1,5 +1,5 @@
 version: 2
-jobs:
+jobs: build
   build:
     docker:
       - image: debian:stretch
