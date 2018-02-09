@@ -1,6 +1,7 @@
 version: 2
 jobs: 
-  build:
+  build:  
+          working_directory:  ~/lab
     docker:
       - image: debian:stretch
     steps:
